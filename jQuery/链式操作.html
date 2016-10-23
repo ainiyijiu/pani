@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="div1">
+			div1
+		</div>
+		<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+		<script type="text/javascript">
+//不熟练这还是用原本的
+		//var div1 = $('#div1');
+//	div1.html('hello');
+//	div1.css('background','red');
+//	div1.click(function(){
+//		alert(123);
+//	})
+//链式操作     宜熟练者使用
+	$('#div1').html('hello').css('background','red').click(function(){
+		alert(123);
+	});		
+
+		</script>
+	</body>
+</html>

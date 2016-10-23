@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+				<div id="div1">
+			div1
+		</div>
+		<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+		<script type="text/javascript">
+
+		var div1 = $('#div1');
+			$('#div1').click(function() {
+				//alert($(this).html());//这是jq的写法
+				//alert(this.innerHTML); //这是js的写法
+				//alert(this.html());//错误写法
+				//alert($(this).innerHTML);//错误写法
+			});
+	
+
+		</script>
+	</body>
+</html>
